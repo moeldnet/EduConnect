@@ -1,6 +1,7 @@
 # EduConnect Back-end
 
 ## Available endpoints:
+> ***NOTE:*** Fields denoted with `*` do not depend on inputs/outputs or are hardcoded
 
 ### **GET** `/example` *(URL-encoded)*
 - **Arguments**: None
