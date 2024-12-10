@@ -1,3 +1,3 @@
-# EduConnect
+# Back-end
 
 More documentation coming later on...
