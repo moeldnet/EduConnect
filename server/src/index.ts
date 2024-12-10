@@ -18,10 +18,10 @@ type RouteModule = {
 	path: string
 };
 
-const routeFiles = fs.readdirSync('./src/routes', { encoding: 'utf8' });
+const routeFiles = fs.readdirSync('./routes', { encoding: 'utf8' });
 
 for (const routeFile of routeFiles) {
-	const routePath = path.join(__dirname, routeFile);
+	const routePath = path.join(__dirname, 'routes', routeFile);
 
 	import(routePath)
 		.then((module: RouteModule) => {
